@@ -1,0 +1,37 @@
+<view class='head'>
+  <view class='audio'>
+    <image src='{{songImg}}'></image>
+    <view class='mes'>
+      <text class='aName'> {{songName}}</text>
+    </view>
+  </view>
+  <view id='title'>
+    <text>最新评论\n</text>
+  </view>
+  <view class='list'>
+    <view class='item' wx:for="{{comments}}" wx:key="{{index}}">
+        <view class='author'>
+          <image src='{{item.img}}'></image>
+          <view>
+            <text class='name'>{{item.username}}\n</text>
+            <text class='date'>{{item.comment_time}}\n</text>
+          </view>
+        </view>
+        <view class='content'>
+          <text>{{item.content}}</text>
+        </view>
+      </view>
+      </view>
+    <view class='comment'>
+      <form bindsubmit='submit'>
+        <view class='view'>
+          <view class='cont'>
+            <input name="comment" bindinput='bindKeyInput' value='{{inputValue}}' maxlength='100' placeholder='在此处评论'></input>
+          </view>
+          <view class='btn'>
+            <button form-type='submit'>评论</button>
+          </view>
+        </view>
+      </form>
+    </view> 
+  </view>

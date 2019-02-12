@@ -1,0 +1,49 @@
+page{
+  background-color: #eae9e2;
+}
+.head{
+  padding-top: 25rpx;
+  padding-left: 15rpx;
+  background-color: #eae9e2;
+}
+#title{
+  width: 100%;
+    margin: 25rpx 0 30rpx 10rpx;
+    background-color: #eae9e2;
+}
+#title text{
+  font-size: 39rpx;
+  color: #333333
+}
+.list{
+  margin-bottom: 100rpx;
+}
+.item {
+  border-top: 1rpx solid #e0e0e0;
+  padding-top: 15rpx;
+  padding-bottom: 30rpx;
+  background-color: #eae9e2;
+}
+.list .author{
+  display: flex;
+  padding-left: 20rpx;
+}
+.list .author image{
+  width: 100rpx;
+  height: 100rpx;
+  margin-right: 25rpx;
+  border-radius: 50%;
+  box-sizing: border-box;
+
+}
+.item .author .name {
+  color: #666666;
+  font-size: 40rpx;
+}
+.author .del{
+  margin-left: 400rpx;
+}
+.author .del text{
+  color: #666666;
+  font-size: 35rpx;
+}

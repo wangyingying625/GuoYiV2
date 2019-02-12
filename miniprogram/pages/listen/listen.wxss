@@ -1,0 +1,153 @@
+.bg{
+  width: 100%;
+  background: url('https://meng.taropowder.cn/GuoYiQiTan/bg.png')no-repeat;
+  background-size: 100%;
+ padding-top: 50rpx;
+}
+.box{
+  display: flex;
+ justify-content: center;
+} 
+.bg .player{
+ width: 631rpx;
+ height: 280rpx;
+ background: url('https://meng.taropowder.cn/GuoYiQiTan/player.png')no-repeat;
+ background-size: 100%;
+ border-radius: 10rpx;
+ padding: 35rpx;
+ padding-left: 45rpx;
+ position: relative;
+ justify-items: center
+}
+.player .author{
+  font-size: 33rpx;
+  color: #422515;
+}
+.player .name{
+  font-size: 45rpx;
+  color: #422515;
+}
+.player slider{
+  background: url("https://meng.taropowder.cn/GuoYiQiTan/progressBar.png");
+  background-size: 100%;
+  margin-top: 40rpx;
+  margin-left: -22rpx;
+  padding-left: 5rpx;
+  padding-right: 10rpx;
+  width: 662rpx;
+  height: 55rpx;
+}
+.player .line{
+  height: 300rpx;
+  width: 7rpx;
+  background-color: #fd0000;
+  position: absolute;
+  top: 15rpx;
+}
+.player .time{
+   margin-top: -25rpx;
+}
+.player .timeS{
+  font-size: 26rpx;
+  margin-left: -20rpx;
+  color: #422515;
+}
+.player .timeC{
+  font-size: 26rpx;
+  margin-left: 505rpx;
+  color: #422515;
+}
+.play{
+  opacity: 0.8;
+  width: 350rpx;
+  height: 380rpx;
+  margin-left: 380rpx;
+  margin-top: -10rpx;
+}
+.btnBox{
+  display: flex;
+ justify-content: center;
+  padding-top: 20rpx;
+  width: 100%;
+}
+.btnBox .star{
+  width: 100rpx;
+  height: 100rpx;
+   background: url("https://meng.taropowder.cn/GuoYiQiTan/star.png")no-repeat;
+  background-size: 100%;
+  margin-left:60rpx;
+}
+.btnBox .share{
+  width: 100rpx;
+  height: 100rpx;
+   background: url("https://meng.taropowder.cn/GuoYiQiTan/share.png")no-repeat;
+  background-size: 100%;
+    margin-right: 60rpx;
+}
+.btnBox  button::after{
+  border: 0;
+}
+.btnBox .pr{
+  width: 100rpx;
+  height: 105rpx;
+   background: url("https://meng.taropowder.cn/GuoYiQiTan/pr.png")no-repeat;
+  background-size: 100%;
+    margin-right: 22rpx;
+}
+.btnBox .next{
+  width: 100rpx;
+  height: 105rpx;
+   background: url("https://meng.taropowder.cn/GuoYiQiTan/next.png")no-repeat;
+  background-size: 100%;
+  margin-right: 20rpx;
+}
+.com{
+  margin-top: 50rpx;
+  width: 100%;
+  height: 145rpx;
+  background-color: #cb9558;
+  border-bottom: 5rpx #000000 solid;
+  padding-top: 20rpx;
+  opacity: 0.6;
+}
+.fir{
+  opacity: 1;
+  padding-left: 28rpx;
+}
+.fir .tit{
+  font-size: 30rpx;
+  font-weight: 800;
+  color: #000000;
+  margin-right: 137rpx;
+}
+.fir .btn{
+  margin-left: 137rpx;
+  height: 40rpx;
+  width: 200rpx;
+}
+.fir .btn button{
+   height: 45rpx;
+  width: 200rpx;
+  border: 2rpx solid #422515;
+  border-radius: 25rpx;
+  font-size: 25rpx;
+  line-height: 1.5;
+}
+.fir .btn button::after{
+  border: 0;
+}
+.con{
+  padding-left: 30rpx;
+  padding-top: 15rpx;
+  display: flex;
+  align-items: cenetr;
+}
+.con image{
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+  margin-right: 20rpx;
+}
+.con text{
+  font-size: 28rpx;
+}

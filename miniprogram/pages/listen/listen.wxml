@@ -1,0 +1,33 @@
+<view class='bg'>
+  <view class='box'>
+    <view class='player'>
+
+      <text class='name'>{{audioList.name}}</text>
+      <slider value="{{sliderValue}}" bindchange="bindSliderchange" block-size="18" block-color="#5e473a" activeColor="#5e473a" />
+
+      <view class='time' style='display:{{showTime}}'>
+        <text class='timeS'>{{currentPosition === 0 ? '' : currentPosition}}</text>
+        <text class='timeC'>{{duration === 0 ? '' : duration}}</text>
+      </view>
+    </view>
+  </view>
+  <view class='play' style='background: url({{playBack}})no-repeat;background-size: 100%;' bindtap='bindTapPlay'>
+  </view>
+  <view class='btnBox'>
+    <view class='star' style='background: url({{starBack}})no-repeat;background-size: 100%;' bindtap='star'></view>
+    <button class='share' bbindtap='onShareAppMessage' type='share' open-type='share'></button>
+  </view>
+  <view class='com'>
+    <view class='fir'>
+      <view class='tit'>
+        <navigator url='../com/com?songName={{audioList.name}}&songImg={{audioList.img}}'>精选留言</navigator>
+      </view>
+    </view>
+    <navigator class='con' url='../com/com?songName={{audioList.name}}&songImg={{audioList.img}}'>
+      <image src='{{audioList.img}}'></image>
+      <view>
+        <text>{{audioList.name}}</text>
+      </view>
+    </navigator>
+  </view>
+</view>

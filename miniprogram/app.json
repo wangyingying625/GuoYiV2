@@ -1,0 +1,43 @@
+{
+  "cloud": true,
+  "pages": [
+      "pages/index/index",
+    "pages/listen/listen",
+    "pages/geRen/geRen",
+    "pages/com/com",
+    "pages/coll/coll"
+  ],
+  "tabBar": {
+  "color": "#fff",
+  "selectedColor": "#422515",
+    "borderStyle": "#00ff00",
+    "backgroundColor": "#e4bf87",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/music1.png",
+        "selectedIconPath": "images/music.png",
+        "text": "广播站"
+      },
+      {
+        "pagePath": "pages/listen/listen",
+        "iconPath": "images/playy.png",
+        "selectedIconPath": "images/play.png",
+        "text": "播音机"
+      },
+      {
+        "pagePath": "pages/geRen/geRen",
+        "iconPath": "images/my1.png",
+        "selectedIconPath": "images/my.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "window": {
+    "backgroundColor": "#634536",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#d6ae7f",
+    "navigationBarTitleText": "国医奇谈",
+    "navigationBarTextStyle": "black"
+  }
+}
